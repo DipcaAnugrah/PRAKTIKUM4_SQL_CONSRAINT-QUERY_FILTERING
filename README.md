@@ -108,7 +108,7 @@ Dengan menggunakan query filtering, Anda dapat menentukan kondisi seperti kesama
     5). Tampilkan jumlah hewan berdasarkan spesies (cat dan dog saja) dan jenis kelamin!
   - Perintah
     ```sql
-    SELECT species,sex, COUNT(*) FROM jumlah_hewan
+    SELECT species,sex, COUNT(*) AS jumlah_hewan FROM hewan
     WHERE species IN('Cat','Dog')
     GROUP BY species,sex;
     ```
