@@ -74,9 +74,10 @@ Dengan menggunakan query filtering, Anda dapat menentukan kondisi seperti kesama
   - Output
     ![img](<gambar/SELECT%20MAX(gaji)%20AS%20gaji_terbesar.png>)
 
-``
-``
-**TABEL hewan**
+```
+```
+**TABEL hewan**     
+
   ![tabel_hewan](gambar/TABLE%20hewan.png)
   1. Tampilkan jumlah hewan yang dimiliki setiap owner!
   - Perintah
